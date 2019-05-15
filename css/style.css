@@ -1,3 +1,51 @@
-h1 {
-  color: fuchsia;
+body, html {
+  height: 100%;
+}
+
+body { 
+  background-image: url("https://geology.com/world/the-united-states-of-america-map.gif");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#infoTitle{
+  display:flex;
+  justify-content:center;
+}
+
+#location-info{
+    display:flex;
+    justify-content:center;
+    background-color:grey;
+    border:solid 9px black;
+    padding:50px;
+    margin:90px;
+}
+
+#address{
+  margin:5px;
+}
+#zipCode{
+  margin:5px;
+}
+#city{
+  margin:5px;
+}
+#state{
+  margin:5px;
+}
+
+#image{
+  width:200px;
+  height:200px;
+}
+
+p{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.parent1{
+  width:50%;
 }
